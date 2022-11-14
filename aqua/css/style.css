@@ -676,6 +676,7 @@ body {
   text-transform: uppercase;
   color: rgb(99, 99, 99);
 }
+
 .halper-link {
   display: flex;
   margin: 0;
@@ -690,15 +691,112 @@ body {
   color: rgb(99, 99, 99);
 }
 
-.tracker {
-  position: fixed;
-  transform: translate(-50%, -50%);
-  width: 40px;
-  z-index: 9999;
-  pointer-events: none;
-  transition: all 0.2s;
+@media only screen and (max-width: 767.98px) {
+  .section-inner {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .section-header-wrapper__form {
+    min-height: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .section-header-wrapper__form-button {
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 20%;
+  }
+  .section-header-wrapper__form-button button {
+    margin: 0 auto;
+    max-width: 95%;
+    min-width: 20%;
+  }
+  .section-header-wrapper__form-input {
+    margin: 0 0 0 6%;
+  }
+  .section-header-wrapper__form-input input {
+    max-width: 100%;
+    min-width: 20%;
+  }
+  .section-promo-first__video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-founder__img img {
+    max-width: 300px;
+    max-height: 250px;
+  }
+  .section-plans__list {
+    flex-direction: column;
+  }
 }
-.tracker svg {
-  width: 100px;
-  height: 100px;
+@media only screen and (max-width: 480px) {
+  .section-inner {
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  .section-header-wrapper__title {
+    font-size: 22px;
+    margin: 0 auto;
+  }
+  .section-header-wrapper__subtitle {
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .section-header-logo {
+    margin: 0 auto;
+  }
+  .section-promo-first {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section-promo-first__content .title {
+    padding-top: 40px;
+    font-size: 22px;
+    margin: 0 auto;
+  }
+  .section-promo-first__video {
+    margin-top: -40px;
+  }
+  .section-promo-second {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-founder__img {
+    display: none;
+  }
+  .section-founder__content-text {
+    font-size: 13px;
+  }
+  .section-plans__list-item_button {
+    position: absolute;
+    left: 0;
+  }
+  .section-plans__list-item_button button {
+    text-align: left;
+    font-size: 13px;
+    width: 20%;
+  }
+  .section-free_button {
+    display: none;
+  }
+  .section-footer__nav {
+    width: 300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .section-footer__nav li a {
+    font-size: 10px;
+  }
+  .section-free_title {
+    font-size: 15px;
+  }
+  .section-free_description {
+    font-size: 14px;
+    margin-top: -10px;
+  }
 }
