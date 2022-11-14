@@ -224,6 +224,9 @@ body {
   }
 }
 @media only screen and (max-width: 688px) {
+  .hover1 {
+    display: none;
+  }
   .section-header-nav ul {
     display: block;
     font-size: 20px;
@@ -234,9 +237,6 @@ body {
     width: 320px;
     width: 320px;
     height: 100%;
-  }
-  .section-header-nav ul li {
-    padding-top: 30px;
   }
   .section-header-nav ul a {
     text-decoration: none;
@@ -294,6 +294,10 @@ body {
     right: 0px;
     background: rgba(1, 1, 2, 0.755);
     transition: all ease 500ms;
+  }
+  .active ul li {
+    padding-top: 45px;
+    border-bottom: 1px solid rgb(217, 214, 214);
   }
   .activeIn ul {
     display: flex;
