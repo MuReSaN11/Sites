@@ -7,17 +7,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
+    <style type="text/css">
+        .block {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        img {
+            width: 300px;
+            height: 150px;
+        }
+
+        img:hover {
+            width: 310px;
+            height: 155px;
+        }
+
+        .items {
+            border: 1px solid rebeccapurple;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: rgba(58, 58, 204, 0.807);
+        }
+
+        a {
+            margin-top: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        body {
+            background-color: rgb(5, 3, 16);
+        }
+    </style>
 </head>
 
 <body>
 
     <div class="block">
-        <a href="aqua/index.html">Aqua</a>
-        <a href="Patra(adaptive)/index.html">Patra</a>
-        <a href="HealthyMind — копия/index.html">HealthyMind</a>
-        <a href="layout16/index.html">layout16</a>
-        <a href="CityT/index.html">CityT</a>
-
+        <div class="items">
+            <img src="../Sites/images/aqua.jpg" alt="">
+            <a href="aqua/index.html">Aqua</a>
+        </div>
+        <div class="items">
+            <img src="../Sites/images/patra.jpg" alt="">
+            <a href="Patra(adaptive)/index.html">Patra</a>
+        </div>
+        <div class="items">
+            <img src="../Sites/images/healthy.jpg" alt="">
+            <a href="HealthyMind — копия/index.html">HealthyMind</a>
+        </div>
+        <div class="items">
+            <img src="../Sites/images/sao.jpg" alt="">
+            <a href="layout16/index.html">layout16</a>
+        </div>
+        <div class="items">
+            <img src="../Sites/images/city.jpg" alt="">
+            <a href="CityT/index.html">CityT</a>
+        </div>
+        <div class="items">
+            <img src="../Sites/images/creatives.jpg" alt="">
+            <a href="Creatives/index.html">Creatives</a>
+        </div>
 
     </div>
 </body>

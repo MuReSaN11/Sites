@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(215, 215, 215);
+}
+
+.head {
+  background: url("../images/backgroundTop.png") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.section-header .section-inner {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: 0 auto;
+}
+.section-header-logo {
+  margin-top: 10px;
+}
+.section-header-nav {
+  width: 65%;
+  margin-left: 5%;
+}
+.section-header-nav ul {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-header-nav ul a {
+  text-decoration: none;
+  color: rgb(245, 245, 251);
+  font-size: 16px;
+}
+.section-header-nav .hover1 {
+  height: 110%;
+  border-bottom: 3px solid blue;
+}
+.section-header-nav .hover1 h4 {
+  margin-top: 36px;
+}
+.section-header-nav h4:hover {
+  color: rgba(31, 29, 175, 0.837);
+}
+.section-header-in {
+  width: 15%;
+}
+.section-header-in ul {
+  margin-top: 10px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-header hr {
+  margin-top: -10px;
+  background-color: rgba(168, 177, 186, 0.493);
+}
+
+.section-log {
+  padding-top: 28.2vh;
+  text-align: center;
+}
+.section-log .section-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 550px;
+}
+.section-log-text-title {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 1000;
+  color: rgb(245, 245, 251);
+}
+.section-log-text-description {
+  font-size: 46px;
+  font-weight: 200;
+  font-style: unset;
+  letter-spacing: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  color: rgba(31, 29, 175, 0.837);
+}
+.section-log-scroll {
+  cursor: pointer;
+}
+.section-log-scroll p {
+  color: rgb(245, 245, 251);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.section-scroll {
+  padding-top: 150px;
+  text-align: center;
+  background-color: rgba(73, 125, 229, 0.895);
+}
+.section-scroll .secction-inner {
+  display: flex;
+  flex-direction: column;
+}
+.section-scroll-top {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: rgb(245, 245, 251);
+}
+.section-scroll-top span {
+  position: absolute;
+  font-size: 250px;
+  font-weight: 800;
+  margin-top: -160px;
+  margin-left: -80px;
+  color: rgb(93, 93, 93);
+  z-index: -99;
+}
+.section-scroll-items {
+  height: 300px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.section-scroll-items p {
+  margin-top: 10px;
+}
+.section-scroll-items .text-bot {
+  color: rgb(245, 245, 251);
+  font-size: 14px;
+  width: 300px;
+  margin: 0 auto;
+}
+.section-scroll-items .text-top {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(245, 245, 251);
+}
+
+.section-form {
+  background: url("../images/backgroundBop.png") no-repeat;
+  background-size: cover;
+  padding-top: 220px;
+  text-align: center;
+}
+.section-form-title {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(245, 245, 251);
+}
+.section-form-input {
+  margin-top: 120px;
+}
+.section-form-input input {
+  width: 100%;
+  height: 40px;
+  text-align: start;
+  border: 1px solid rgb(245, 245, 251);
+  background-color: rgba(255, 228, 196, 0);
+  color: rgb(245, 245, 251);
+}
+.section-form-input input::placeholder {
+  color: rgb(245, 245, 251);
+}
+.section-form-input #inputMessage {
+  margin-top: 20px;
+  width: 317%;
+  height: 150px;
+}
+.section-form-input #inputMessage::placeholder {
+  position: absolute;
+  margin-top: 5px;
+}
+.section-form-button {
+  margin-top: 60px;
+  padding-bottom: 180px;
+}
+.section-form-button button {
+  background-color: rgb(64, 88, 225);
+  max-width: 200px;
+  width: 200px;
+  min-width: 100px;
+  height: 50px;
+  border: none;
+  color: rgb(245, 245, 251);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section-footer {
+  height: 150px;
+  background-color: rgb(18, 17, 19);
+}
+.section-footer .section-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(245, 245, 251);
+  padding-top: 60px;
+}
+.section-footer-left a {
+  color: rgb(245, 245, 251);
+}
+
+.header__btn {
+  position: fixed;
+  top: 0px;
+  right: -100px;
+}
+
+@media only screen and (max-width: 1349px) {
+  .section-scroll {
+    height: 950px;
+  }
+}
+@media only screen and (max-width: 688px) {
+  .section-header-nav ul {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 320px;
+    width: 320px;
+    height: 100%;
+  }
+  .section-header-nav ul li {
+    padding-top: 30px;
+  }
+  .section-header-nav ul a {
+    text-decoration: none;
+    color: rgb(245, 245, 251);
+    font-size: 16px;
+  }
+  .section-header-in ul {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 190px;
+    right: -330px;
+    width: 320px;
+    width: 320px;
+    height: 100%;
+  }
+  .section-scroll {
+    height: 1550px;
+  }
+  .section-log-text-title {
+    font-size: 50px;
+  }
+  .section-log-text-description {
+    font-size: 14px;
+  }
+  .section-header-logo {
+    margin-left: 0px;
+  }
+  span {
+    display: none;
+  }
+  .section-scroll-items .text-bot {
+    font-size: 12px;
+    font-weight: 200;
+    width: 200px;
+  }
+  .section-scroll-items img {
+    margin-top: 10px;
+  }
+  .header__btn {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    /* width: 300px;
+    height: 100%;  */
+    z-index: 2;
+  }
+  .active ul {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    background: rgba(1, 1, 2, 0.755);
+    transition: all ease 500ms;
+  }
+  .activeIn ul {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 190px;
+    right: 0px;
+    width: 320px;
+    width: 320px;
+    height: 100%;
+    transition: all ease 1100ms;
+  }
+}
