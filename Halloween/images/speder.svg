@@ -1,0 +1,31 @@
+<svg width="513" height="513" viewBox="0 0 513 513" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_49_36)">
+<ellipse cx="256" cy="162.5" rx="36" ry="39.5" fill="black"/>
+<ellipse cx="256" cy="273.5" rx="70" ry="88.5" fill="black"/>
+<rect x="119.919" y="212.408" width="109" height="17.8355" transform="rotate(-5.89181 119.919 212.408)" fill="black"/>
+<rect x="47" y="266.697" width="91.1932" height="17.8355" transform="rotate(-36.4093 47 266.697)" fill="black"/>
+<rect x="14.1008" y="340.45" width="86.1419" height="17.8355" rx="8.91777" transform="rotate(-66.1608 14.1008 340.45)" fill="black"/>
+<rect width="109" height="17.8355" transform="matrix(-0.994717 -0.10265 -0.10265 0.994717 392.255 212.189)" fill="black"/>
+<path d="M465.175 266.478L391.782 212.35L381.196 226.704L454.588 280.832L465.175 266.478Z" fill="black"/>
+<rect width="86.1419" height="17.8355" rx="8.91777" transform="matrix(-0.404171 -0.914683 -0.914683 0.404171 498.074 340.231)" fill="black"/>
+<rect x="322.253" y="256.556" width="86.5356" height="18.2109" rx="9.10547" transform="rotate(44.7732 322.253 256.556)" fill="black"/>
+<rect x="380" y="311" width="116.637" height="19.0825" rx="9.54125" transform="rotate(84.9071 380 311)" fill="black"/>
+<rect x="393.523" y="418.601" width="105.816" height="20.1186" rx="10.0593" transform="rotate(114.256 393.523 418.601)" fill="black"/>
+<rect width="86.5356" height="18.2109" rx="9.10547" transform="matrix(-0.709901 0.704302 0.704302 0.709901 190.27 256)" fill="black"/>
+<rect width="116.637" height="19.0825" rx="9.54125" transform="matrix(-0.0887708 0.996052 0.996052 0.0887708 132.523 310.444)" fill="black"/>
+<rect width="105.816" height="20.1186" rx="10.0593" transform="matrix(0.410812 0.91172 0.91172 -0.410812 119 418.045)" fill="black"/>
+<rect x="77" y="-0.438843" width="21.2333" height="141.219" rx="10.6166" transform="rotate(-4.21646 77 -0.438843)" fill="black"/>
+<rect x="197.526" y="169.544" width="21.2333" height="117.436" rx="10.6166" transform="rotate(116.579 197.526 169.544)" fill="black"/>
+<rect x="240.51" y="166.367" width="19.5645" height="63.1084" rx="9.78224" transform="rotate(90.2548 240.51 166.367)" fill="black"/>
+<rect width="21.1185" height="138.314" rx="10.5593" transform="matrix(-0.999259 -0.0384854 -0.0384854 0.999259 434.323 0.788269)" fill="black"/>
+<rect width="21.2333" height="117.436" rx="10.6166" transform="matrix(0.481214 0.876603 0.876603 -0.481214 320.497 170.016)" fill="black"/>
+<rect width="19.5645" height="63.1084" rx="9.78224" transform="matrix(0.0425875 0.999093 0.999093 -0.0425875 277.422 168.481)" fill="black"/>
+<path d="M227.559 153C210.892 140 188.659 110.4 233.059 96" stroke="black" stroke-width="20"/>
+<path d="M284.5 153C301.167 140 323.4 110.4 279 96" stroke="black" stroke-width="20"/>
+</g>
+<defs>
+<clipPath id="clip0_49_36">
+<rect width="512.002" height="512.002" fill="white"/>
+</clipPath>
+</defs>
+</svg>
